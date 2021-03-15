@@ -28,4 +28,6 @@ export const scoreView = (quiz) => {
 
   document.querySelector('.helpButton').remove();
   document.querySelector('.cheatButton').remove();
+  document.getElementById('help_navbar').style.height = '0%';
+  document.getElementById('cheat_navbar').style.height = '0%';
 };

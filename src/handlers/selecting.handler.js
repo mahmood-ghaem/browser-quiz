@@ -31,8 +31,6 @@ export const selectingHandler = (event) => {
     quizData.quiz.wrong++;
   }
   quizData.quiz.answered++;
-  updateRealScore();
-};
-export const pressedButton = (event) => {
   event.target.style = ' box-shadow: #607d8bb3 0px 0px 15px 3px;;';
+  updateRealScore();
 };

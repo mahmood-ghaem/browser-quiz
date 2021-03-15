@@ -38,8 +38,3 @@ export const closeNavbar = (event) => {
     document.getElementById('cheat_navbar').style.height = '0%';
   }
 };
-
-export const closeForLastPage = () => {
-  document.getElementById('help_navbar').style.height = '0%';
-  document.getElementById('cheat_navbar').style.height = '0%';
-};

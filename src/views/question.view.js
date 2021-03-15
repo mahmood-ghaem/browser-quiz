@@ -7,7 +7,7 @@
  * @return {HTMLDivElement} a PRE element with the rendered string content
  */
 
-export const questionView = (question = {}) => {
+export const createQuestion = (question = {}) => {
   const quizContainer = document.querySelector('.quizContainer');
   quizContainer.classList.add('showQuiz');
 
