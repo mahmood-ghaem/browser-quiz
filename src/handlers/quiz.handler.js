@@ -5,7 +5,7 @@ import { addFooterListener } from '../listeners/footer.listener.js';
 import { addSelectingListener } from '../listeners/selecting.listener.js';
 import { addMenuBarListener } from '../listeners/menubar.listener.js';
 
-export const quizHandler = (event) => {
+export const quizHandler = () => {
   const startContainer = document.querySelector('.startContainer');
   startContainer.remove();
   updateQuiz(quizData.questions[0], 0);

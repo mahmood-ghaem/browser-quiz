@@ -17,6 +17,7 @@
 
   <body>
     <!-- Put your HTML here -->
+    <!-- Start container for introduction -->
     <div class="startContainer">
       <h1>Start Exam</h1>
       <div class="startFooter">
@@ -30,27 +31,28 @@
         ></a>
       </div>
     </div>
+    <!-- Quiz container to store each question and dependencies -->
     <div class="quizContainer">
+      <!-- 1- About button -->
       <div class="menuBars">
         <a id="menuBtn" class="navbar-icon">
           <i class="fa fa-bars"></i>
         </a>
       </div>
-
+      <!-- 2- Help button -->
       <div class="helpButton">
         <a id="helpBtn" class="navbar-icon">
           <i class="fas fa-question"></i>
         </a>
-        <!-- <span class="tooltiptext">Help</span> -->
       </div>
-
+      <!-- 3- Cheat button -->
       <div class="cheatButton">
         <a id="cheatBtn" class="navbar-icon">
           <i class="fas fa-life-ring"></i>
         </a>
-        <!-- <span class="tooltiptext">Cheat</span> -->
       </div>
-
+      <!-- Each button has an overlay to show its content -->
+      <!-- About overlay -->
       <div class="overlay" id="overlay_navbar">
         <a id="closeBtn" class="closebtn">×</a>
         <div class="overlay-content">
@@ -70,14 +72,14 @@
           >
         </div>
       </div>
-
+      <!-- Help overlay -->
       <div class="helpMenubar" id="help_navbar">
         <a id="help_closeBtn" class="closebtn">×</a>
         <div class="overlay-content">
           <h4>help</h4>
         </div>
       </div>
-
+      <!-- Cheat overlay -->
       <div class="cheatMenubar" id="cheat_navbar">
         <a id="cheat_closeBtn" class="closebtn">×</a>
         <div class="overlay-content">
@@ -86,7 +88,6 @@
       </div>
     </div>
     <!-- Add other files here -->
-    <script src="./src/data.js" type="module"></script>
     <script src="./src/init/index.js" type="module"></script>
   </body>
 </html>
